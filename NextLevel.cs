@@ -14,7 +14,6 @@ public class NextLevel : MonoBehaviour
         print("Trigger Entered");
 
         // Could use other.GetComponent<Player>() to see if the game object has a Player component
-        // Tags work too. Maybe some players have different script components?
         if (others.tag == "Player")
         {
             // Player entered, so move level
